@@ -1,0 +1,267 @@
+
+#banner{
+	clear: both;
+	width: 971px;
+/* 	height: 800px; */
+	/* border: 1px solid black; */
+	margin-top: 10px;
+	float: left;
+}
+#banner .b_left{
+	width: 717px;
+	height: 600px;
+	border: 1px solid rgba(210,212,211);
+	float: left;
+}
+.b_left .bl_nav{
+	width: 100%;
+	height: 30px;
+	border-bottom:1px solid rgba(210,212,211) ;
+}
+.b_left .bl_nav h4{
+	color: red;
+	margin-top: 5px;
+	text-indent: 1em;
+	float: left;
+}
+.b_left .bl_nav ul li{
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+}
+.b_left .bl_nav ul li a{
+	color: grey;
+}
+.b_left .box{
+	width: 717px;
+	height: 200px;
+	border-bottom: 1px solid  gray;
+}
+.b_left .box .box1{
+	width: 341px;
+	height: 154px;
+	margin-left: 10px;
+	margin-top: 20px;
+	border: 1px solid black;
+	float: left;
+}
+.b_left .box .box1 img{
+	float: left;
+	margin-left: 10px;
+}
+.box1 h4{
+	margin-top: 10px;
+	color: #FF0000;
+}
+.b_left .box .box1 ul li span{
+	color: red;
+}
+
+.b_left .box .box2{
+	width: 341px;
+	height: 154px;
+	margin-left: 10px;
+	margin-top: 20px;
+	border: 1px solid black;
+	float: left;
+}
+.b_left .box .box2 img{
+	float: left;
+	margin-left: 10px;
+}
+.box2 h4{
+	margin-top: 10px;
+	color: #FF0000;
+}
+.b_left .box .box2 ul li span{
+	color: red;
+}
+.b_left .bl_nav1{
+	width: 100%;
+	height: 30px;
+	border-bottom:1px solid rgba(210,212,211) ;
+}
+.b_left .bl_nav1 h4{
+	color: red;
+	line-height: 30px;
+	text-indent: 1em;
+}
+.bl_footer{
+	width: 100%;
+	height: 350px;
+}
+.bl_footer p{
+	font-size: 10px;
+	text-align: center;
+}
+.bl_footer .a{
+	width: 150px;
+	height: 160px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.bl_footer .b{
+	width: 150px;
+	height: 160px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.bl_footer .c{
+	width: 150px;
+	height: 160px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.bl_footer .d{
+	width: 150px;
+	height: 160px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.bl_footer .e{
+	width: 150px;
+	height: 160px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.bl_footer .f{
+	width: 150px;
+	height: 160px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.bl_footer .g{
+	width: 150px;
+	height: 160px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.h{
+	width: 150px;
+	height: 160px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.i{
+	width: 150px;
+	height: 160px;
+	margin-top: 20px;
+	float: left;
+}
+
+
+#banner .b_right{
+	width: 240px;
+	height: 600px;
+	border: 1px solid rgba(210,212,211);
+	float: left;
+	margin-left: 10px;
+}
+#banner .br_nav{
+	width: 100%;
+	height: 30px;
+	border-bottom:1px solid rgba(210,212,211);
+}
+.br_nav h4{
+	color: red;
+	text-indent: 1em;
+	line-height: 30px;
+}
+.br_midden{
+	width: 100%;
+	height: 285px;
+	border-bottom:1px solid red ;
+}
+.br_midden ul li{
+	margin: 10px;
+	font-size: 10px;
+	text-indent: 4em;
+	background-image: url(开心网/images/btn-04.gif);
+	background-repeat: no-repeat;
+	background-position:5px -2px ;
+	border-bottom: 1px dashed gray;
+}
+.br_midden ul li:nth-of-type(12){
+	border: none;
+}
+
+.br_midden ul li:hover{
+	cursor: pointer;
+	color: #FF0000;
+}
+.br_footer{
+	margin-top: 20px;
+	width: 100%;
+	height: 250px;
+}
+.br_footer .br_footer1{
+	width: 100%;
+	height: 30px;
+	border-top: 1px solid rgba(210,212,211);
+	border-bottom: 1px solid rgba(210,212,211);
+}
+.br_footer .br_footer1 h4{
+	color: red;
+	text-indent: 1em;
+	line-height: 30px;
+}
+.br_footer .A{
+	width: 100%;
+	height: 90px;
+	float: left;
+	border-bottom: 1px dashed gray;
+	margin-top: 10px;
+}
+.br_footer .A img{
+	float: left;	
+}
+.br_footer .A ul {
+	float: left;
+}
+.br_footer .A ul li{
+	font-size: 10px;
+	line-height: 20px;
+	color: royalblue;
+}
+.br_footer .B{
+	width: 100%;
+	height: 90px;
+	float: left;
+	margin-top: 10px;
+}
+.br_footer .B img{
+	float: left;	
+}
+.br_footer .ABul {
+	float: left;
+}
+.br_footer .B ul li{
+	font-size: 10px;
+	line-height: 20px;
+	color: royalblue;
+}
+
+#footer{
+	clear: both;
+	width: 100%;
+	height: 30px;
+}
+#footer p{
+	margin-top: 15px;
+	font-size: 12px;
+	float: left;
+	color:royalblue ;
+}
+#footer span{
+	margin-left:150px ;
+	float: left;
+	color: #000000;
+}
