@@ -1,0 +1,887 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 定义全局的a标签和img */
+a:hover{
+	cursor: pointer;
+	color: #7FFFD4;
+}
+img{
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+#QQ{
+	min-width: 1224px;
+	/* 需要注释掉 */
+	/* background-color: tan; */
+}
+/* 导航栏部分 */
+.header{
+	width:1200px;
+	height: 142px;
+	/* 需要注释掉 */
+	/* background-color: red; */
+	margin: 0 auto;
+}
+/* 歌单导航栏 */
+.playlist {
+
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	/* 需要注释掉 */
+	/* background-color: oldlace; */
+}
+.playlist .left{
+	width: 180px;
+	height: 100px;
+	float: left;
+	/* 需要注释掉 */
+	/* background-color: pink; */
+	border-right:  1px solid #c1c1c1;
+	margin-right: 5px;
+}
+.playlist .left_t{
+	width: 250px;
+	height: 100px; 
+	/* 需要注释掉 */
+	/* background-color: #7FFFD4; */
+	float: left;
+	border-right:  1px solid #c1c1c1;
+}
+.playlist .center{
+	width: 250px;
+	height: 100px;
+	/* 注释掉 */
+	/* background-color: #D2B48C; */
+	float: left;
+	border-right:  1px solid #c1c1c1;
+	margin-right: 5px;
+}
+.playlist .right_t{
+	width: 250px;
+	height: 100px;
+	/* 注释掉 */
+	/* background-color:white; */
+	float: left;
+	border-right:  1px solid #c1c1c1;
+	margin-right: 5px;
+}
+.playlist .right{
+	width: 250px;
+	height: 100px;
+	/* 注释掉 */
+	/* background-color: aqua; */
+	float: right;
+	border-right:  1px solid #c1c1c1;
+}
+.playlist .left h6{
+	color: darkgray;
+	margin-top: 0;
+}
+.playlist .left a{
+	margin-top: 10px;
+	width: 70px;
+	height: 20px;
+	display: block;
+	float: left;
+	list-style: none;
+	font-size: 12px;
+
+}
+.playlist .left a:hover{
+	color: aquamarine;
+	cursor: pointer;
+}
+.playlist .left_t a{
+	width: 80px;
+	height: 20px;
+	float: left;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.playlist .left_t h6{
+	color: darkgray;
+}
+.playlist .center h6{
+	color: #c1c1c1;
+}
+.playlist .center a{
+	width: 80px;
+	height: 20px;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	float: left;
+	list-style: none;
+	margin-top: 10px;
+}
+.playlist .center a:hover{
+	color: #7FFFD4;
+}
+.playlist .right_t h6{
+	color: #C1C1C1;
+}
+.playlist .right_t a:hover{
+	color: #7FFFD4;
+}
+.playlist .right_t a{
+	width: 80px;
+	height: 20px;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	float: left;
+	list-style: none;
+	margin-top: 10px;
+}
+.playlist .right h6{
+	color: #C1C1C1;
+}
+.playlist .right a:hover{
+	color: #7FFFD4;
+}
+.playlist .right a{
+	width: 80px;
+	height: 20px;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	float: left;
+	list-style: none;
+	margin-top:10px ;
+}
+
+/* 全部歌单第一部分  */
+.quanbu{
+	width:1200px;
+	height: 1450px;
+	/* 需注释掉 */
+	/* background-color: tan; */
+	margin: 0 auto;
+}
+.quanbu .left div{
+	width: 100%;
+	height: 20px;
+	padding: 20px 0;
+}
+.quanbu .left div h3{
+	color: #1A1A1A;
+	font-size: 18px;
+	font-weight: normal;
+	float: left;
+}
+.quanbu .left div a{
+	float: right;
+	display: block;
+	border: 1px solid #00ff77;
+	padding: 4px 7px;
+}
+
+/* 歌单内容第一部分 */
+.quanbu .content{
+	height: 305px;
+	width: 1200px;
+	/* 需要注释掉 */
+	/* background-color: #00FF77; */
+	float: left;
+	position:absolute;
+	top: 350px;
+	margin: 0px auto;
+}
+
+
+/* 过渡效果,鼠标悬停图片放大 */
+.quanbu .content .box{
+	height: 225px;
+	width: 210px;
+	overflow: hidden;
+	/* background-color: #000000; */
+}
+
+.quanbu .content ul{
+	font-size: 12px;
+	margin-top: 10px;
+	list-style: none;
+	float: left;
+}
+.quanbu .content ul li{
+	margin-top: 5px;
+	margin-right: 100px;
+	}
+	.quanbu .content ul li:hover{
+		color: #00FF77;
+		cursor: pointer;
+	}
+.quanbu .content ul li:nth-child(2){
+	font-size: 10px;
+	color: #C1C1C1;
+}
+.quanbu .content ul li:nth-child(3){
+	color: #C1C1C1;
+}
+
+.quanbu .content .box1{
+	width: 224px;
+	height: 225px;
+	/* background-color: #000000; */
+	float: left;
+	overflow:hidden ;
+	position: absolute;
+	top: 0;
+	margin-left: 230px;
+}
+.quanbu .content .box2{
+	width: 224px;
+	height: 225px;
+	float: left;
+	/* 超出部分隐藏 */
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	margin-left: 478px;
+}
+.quanbu .content .box3{
+	width: 224px;
+	height: 225px;
+	float: left;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	margin-left: 729px;
+}
+.quanbu .content .box4{
+	width: 224px;
+	height: 225px;
+	float: left;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	margin-left: 976px;
+}
+
+/* 歌单第二部分 */
+.content_1{
+	width:1200px;
+	height: 305px;
+	/* 需注释掉 */
+	/* background-color: tan; */
+	margin: 310px auto;
+	float: left;
+	position: absolute;
+	top: 350px;
+	left:auto;
+}
+.content_1 .box{
+	width: 210px;
+	height: 225px;
+	/* 需注释 */
+	/* background-color: #000000; */
+	overflow:hidden ;
+}
+.content_1 ul{
+	float: left;
+	font-size: 12px;
+	margin-top: 10px;
+	list-style: none;
+}
+.content_1 ul li{
+	margin-top: 5px;
+	margin-right: 100px;
+	}
+.quanbu .content_1 li:hover{
+		color: #00FF77;
+		cursor: pointer;
+	}
+.content_1 ul li:nth-child(2){
+	font-size: 10px;
+	color: #C1C1C1;
+}
+.content_1 ul li:nth-child(3){
+	color: #C1C1C1;
+}
+.content_1 .box1{
+	width: 224px;
+	height: 225px;
+	/* background-color: #000000; */
+	float: left;
+	overflow:hidden ;
+	position: absolute;
+	top: 0;
+	margin-left: 230px;
+}
+.content_1 .box2{
+	width: 224px;
+	height: 225px;
+	overflow: hidden;
+	position: absolute;
+	margin-left: 478px;
+	float: left;
+	top: 0;
+}
+.content_1 .box3{
+	width: 224px;
+	height: 225px;
+	overflow: hidden;
+	position: absolute;
+	margin-left: 729px;
+	float: left;
+	top: 0;
+}
+.content_1 .box4{
+	width: 224px;
+	height: 225px;
+	overflow: hidden;
+	position: absolute;
+	margin-left: 976px;
+	float: left;
+	top: 0;
+}
+
+/* 第三部分 */
+.content_2{
+	width:1200px;
+	height: 305px;
+	/* 需注释掉 */
+	/* background-color: tan; */
+	margin: 310px auto;
+	float: left;
+	position: absolute;
+	top: 660px;
+	left: auto;
+}
+.content_2 ul{
+	float: left;
+	font-size: 12px;
+	margin-top: 10px;
+	list-style: none;
+}
+.content_2 ul li{
+	margin-top: 5px;
+	margin-right:90px;
+	}
+.content_2 li:hover{
+		color: #00FF77;
+		cursor: pointer;
+	}
+.content_2 ul li:nth-child(2){
+	font-size: 10px;
+	color: #C1C1C1;
+}
+.content_2 ul li:nth-child(3){
+	color: #C1C1C1;
+}
+.content_2 .box{
+	width: 210px;
+	height: 225px;
+	/* 需注释 */
+	/* background-color: #000000; */
+	overflow:hidden ;
+	}
+.content_2 .box1{
+		width: 224px;
+		height: 225px;
+		/* 需注释 */
+		/* background-color: #000000; */
+		float: left;
+		overflow:hidden ;
+		position: absolute;
+		top: 0;
+		margin-left: 230px;
+	}
+.content_2 .box2{
+		width: 224px;
+		height: 225px;
+		overflow: hidden;
+		position: absolute;
+		margin-left: 478px;
+		float: left;
+		top: 0;
+	}
+.content_2 .box3{
+		width: 224px;
+		height: 225px;
+		overflow: hidden;
+		position: absolute;
+		margin-left: 729px;
+		float: left;
+		top: 0;
+	}
+.content_2 .box4{
+	width: 224px;
+	height: 225px;
+	overflow: hidden;
+	position: absolute;
+	margin-left: 976px;
+	float: left;
+	top: 0;
+}
+
+.content_3{
+	width:1200px;
+	height: 305px;
+	/* 需注释掉 */
+	/* background-color: tan; */
+	margin: 310px auto;
+	float: left;
+	position: absolute;
+	top: 970px;
+	left: auto;
+}
+.content_3 ul{
+	float: left;
+	font-size: 12px;
+	margin-top: 10px;
+	list-style: none;
+}
+.content_3 ul li{
+	margin-top: 5px;
+	margin-right:90px;
+	}
+.content_3 li:hover{
+		color: #00FF77;
+		cursor: pointer;
+	}
+.content_3 ul li:nth-child(2){
+	font-size: 10px;
+	color: #C1C1C1;
+}
+.content_3 ul li:nth-child(3){
+	color: #C1C1C1;
+}
+.content_3 .box{
+	width: 210px;
+	height: 225px;
+	/* 需注释 */
+	/* background-color: #000000; */
+	overflow:hidden ;
+	}
+.content_3 .box1{
+			width: 224px;
+			height: 225px;
+			/* 需注释 */
+			/* background-color: #000000; */
+			float: left;
+			overflow:hidden ;
+			position: absolute;
+			top: 0;
+			margin-left: 230px;
+		}
+.content_3 .box2{
+			width: 224px;
+			height: 225px;
+			overflow: hidden;
+			position: absolute;
+			margin-left: 478px;
+			float: left;
+			top: 0;
+		}
+.content_3 .box3{
+			width: 224px;
+			height: 225px;
+			overflow: hidden;
+			position: absolute;
+			margin-left: 729px;
+			float: left;
+			top: 0;
+		}
+.content_3 .box4{
+		width: 224px;
+		height: 225px;
+		overflow: hidden;
+		position: absolute;
+		margin-left: 976px;
+		float: left;
+		top: 0;
+	}
+.last{
+	width: 1200px;
+	height: 50px;
+	/* background-color: #000000; */
+	position: absolute;
+	top: 1600px;
+}
+.last p{
+	font-size: 20px;
+	margin-left: 480px;
+}
+.bottom{
+	width: 1200px;
+	height: 20px;
+	position: absolute;
+	top: 1650px;
+	margin-left: 500px;
+	font-size: 20px;
+}
+.bottom p{
+	width: 90px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 50px;
+	border: 1px solid #00FF77;
+	border-radius:30px;
+	background-color: #31C27C;
+}
+.bottom p:hover{
+	cursor: pointer;
+}
+.dibu{
+	width: 100%;
+	background-color: rgb(51,51,51);
+}
+.footer{
+	width: 1200px;
+	height: 590px;
+	background-color: rgb(51,51,51);
+	margin-left: 150px;
+}
+.footer-intfo{
+     width: 100%;
+	 height: 410px;
+	 /* 需要注释 */
+	 /* background-color:#4A4A4A; */;
+}
+.footer .footer-intfo .footer-left{
+	width: 400px;
+	height: 410px;
+	/* 需要注释 */
+	/* background-color: red; */
+	float: left;
+    margin-top: 60px;
+	margin-bottom: 0px;
+}
+.footer-intfo .footer-left h3{
+   width:360px ;
+   height: 80px;
+   font-family: "宋体";
+   font-size:15px ;
+   color: #c1c1c1;
+}
+.footer-intfo .footer-left .footer-box{
+     width: 400x;
+     height: 50px;
+}
+.footer-intfo .footer-left .footer-box .footer-box1{
+	 width: 90px;
+	 height: 50px;
+	 background: url(../img/footer.png) no-repeat;
+	 float: left;
+}
+.footer-intfo .footer-left .footer-box .footer-box2{
+   	width: 90px;
+   	height: 50px;
+   	background: url(../img/footer.png) no-repeat;
+	background-position-x:-83px ;
+   	float: left;
+}
+.footer-intfo .footer-left .footer-box .footer-box3{
+   	width: 90px;
+   	height: 50px;
+   	background:url(../img/footer.png) no-repeat;
+	background-position-x:-166px ;
+   	float: left;
+}
+.footer-intfo .footer-left .footer-box .footer-box4{
+   	width: 90px;
+   	height: 50px;
+   	background:url(../img/footer.png) no-repeat;
+	background-position-x:-249px ;
+   	float: left;
+}
+.footer-intfo .footer-left ul{
+   width: 400px;
+   height: 30px;
+  
+}
+.footer-intfo .footer-left ul li{
+    width: 95px;
+    height: 30px;
+	float: left;
+	list-style: none;
+	}
+.footer-intfo .footer-left ul li a{
+	text-align:center;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "宋体";
+	float: left;
+	color:#C1C1C1 ;
+}
+.footer-intfo .footer-left .footer-a{
+	width: 400px;
+	height: 60px;
+	margin-top: 80px;
+	color:#C1C1C1 ;
+	font-size: 15px;
+	font-family: "宋体";
+}
+.footer-intfo .footer-left .footer-a1{
+	width: 400px;
+	height: 80px;
+	color:#C1C1C1 ;
+	font-size: 15px;
+	font-family: "宋体";
+}
+.footer-intfo .footer-left .footer-a1 a{
+	float: left;
+	color:#C1C1C1 ;
+	font-size: 15px;
+	font-family: "宋体";
+}
+.footer-intfo .footer-left .footer-box .footer-box1:hover{
+	background-position-y: -47px;
+}
+.footer-intfo .footer-left .footer-box .footer-box2:hover{
+	background-position-y: -47px;
+}
+.footer-intfo .footer-left .footer-box .footer-box4:hover{
+	background-position-y: -47px;
+}
+.footer-intfo .footer-left .footer-box .footer-box3:hover{
+	background-position-y: -47px;
+}
+.footer-intfo .footer-left ul li a:hover{
+	color: forestgreen;
+}
+.footer-intfo .footer-left .footer-a a:hover{
+	color: forestgreen;
+	 
+} 
+.footer-intfo .footer-left .footer-a1 a:hover{
+	color: forestgreen; 
+}
+.footer .footer-intfo .footer-conter{
+   width: 300px;
+   height: 410px;
+   float: left;
+   /* 需要注释
+	*/
+   /* background-color:yellow; */
+   margin: 60px 60px;
+   margin-bottom: 0px;
+}
+.footer-intfo .footer-conter h3{
+   width:300px ;
+   height: 80px;
+   font-size:15px ;
+   font-family: "宋体";
+   color: #c1c1c1;
+}
+.footer-intfo .footer-conter .footer-box{
+     width: 300x;
+     height: 50px;
+}
+.footer-intfo .footer-conter .footer-box .footer-box1{
+	 width: 90px;
+	 height: 50px;
+	 background:url(../img/footer.png) no-repeat;
+	 background-position-x:-360px ;
+	 float: left;
+}
+.footer-intfo .footer-conter .footer-box .footer-box2{
+   	width: 90px;
+   	height: 50px;
+   	background:url(../img/footer.png) no-repeat;
+	background-position-x:-430px ;
+   	float: left;
+}
+.footer-intfo .footer-conter .footer-box .footer-box3{
+   	width: 90px;
+   	height: 50px;
+   	background:url(../img/footer.png) no-repeat;
+	background-position-x:-515px ;
+   	float: left;
+}
+ 
+.footer-intfo .footer-conter ul{
+   width: 300px;
+   height: 30px;
+}
+.footer-intfo .footer-conter ul li{
+    width: 95px;
+    height: 30px;
+	float: left;
+	list-style: none;
+}
+.footer-intfo .footer-conter ul li a{
+	text-align:center;
+	text-decoration: none;
+    font-size: 15px;
+	font-family: "宋体";
+	float: left;
+	color:#C1C1C1 ;
+}
+.footer-intfo .footer-conter .footer-a{
+	width: 400px;
+	height: 60px;
+	margin-top: 80px;
+	color:#C1C1C1 ;
+	font-size: 15px;
+	font-family: "宋体";
+}
+.footer-intfo .footer-conter .footer-a1{
+	width: 400px;
+	height: 80px;
+	color:#C1C1C1 ;
+	font-size: 15px;
+	font-family: "宋体";
+	}
+.footer-intfo .footer-conter .footer-box .footer-box1:hover{
+	background-position-y: -47px;
+}
+.footer-intfo .footer-conter .footer-box .footer-box2:hover{
+	background-position-y: -47px;
+}
+.footer-intfo .footer-conter .footer-box .footer-box4:hover{
+	background-position-y: -47px;
+}
+.footer-intfo .footer-conter .footer-box .footer-box3:hover{
+	background-position-y: -47px;
+}
+.footer-intfo .footer-conter ul li a:hover{
+	color: forestgreen;
+}
+.footer-intfo .footer-conter .footer-a a:hover{
+	color: forestgreen;
+}
+.footer-intfo .footer-conter .foooter-a1:hover{
+color: forestgreen;	
+}
+.footer .footer-intfo .footer-right{
+  	width: 360px;
+	height: 410px;
+	float: left;
+	margin: 60px 10px;
+	margin-bottom: 0px;
+	/* 需要注释 */
+	/* background-color: blue; */
+}
+.footer-intfo .footer-right h3{
+   width:360px ;
+   height: 80px;
+ font-size: 15px;
+ font-family: "宋体";
+   color: #c1c1c1;
+}
+ .footer-right .right-1{
+   width: 100px;
+   height: 450px;
+   margin-left:50px;
+   float: left;
+}
+.footer-right .right-1 ul{
+  height: 450px;
+  width: 100px;
+}
+ .footer-right .right-1 ul li{
+  width: 100px;
+  height: 20px;
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 15px;
+}
+ .footer-right .right-1 ul li a{
+   text-decoration: none;
+    color: #c1c1c1;
+	font-size: 15px;
+	font-family: "宋体";
+}
+ .footer-right .right-2{
+   height: 450px;
+   width: 100px;
+   float: left;
+   margin-left:10px ;
+}
+ .footer-right .right-2 ul{
+  height: 450px;
+  width: 100px;
+}
+ .footer-right .right-2 ul li{
+  width: 100px;
+  height: 20px;
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 15px;
+}
+ .footer-right .right-2 ul li a{
+   text-decoration: none;
+    color: #c1c1c1;
+	font-size: 15px;
+	font-family: "宋体";
+}
+ .footer-right .right-3{
+   height: 450px;
+   width: 100px;
+   float: left;
+}
+ .footer-right .right-3 ul{
+  height: 450px;
+  width: 100px;
+}
+ .footer-right .right-3 ul li{
+  width: 100px;
+  height: 20px;
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 15px;
+}
+ .footer-right .right-3 ul li a{
+   text-decoration: none;
+    color: #c1c1c1;
+	font-size: 15px;
+	font-family: "宋体";
+}
+.footer-right .right-1 ul li a:hover{
+	color: #228B22;
+}
+.footer-right .right-2 ul li a:hover{
+	color: #228B22;
+}
+.footer-right .right-3 ul li a:hover{
+	color: #228B22;
+}
+.last_1{
+  width:1200px;
+  height: 132px;
+  position: absolute;
+  margin: 0 auto;
+}
+.last_1 .a1{
+    width: 800px;
+     height: 20px;
+	 margin: 0 auto;
+	 padding-left: 120px;
+}
+.last_1 .a1 a{
+	width: 60px;
+    float: left;
+	font-size:12px ;
+	text-decoration: none;
+	text-align: center;
+	border-right:1px solid #c1c1c1;
+	font-size:12px ;
+	text-decoration: none;
+	text-align: center;
+	color:  #c1c1c1;
+}
+.last_1 .a3{
+     width: 400px;
+     height: 20px; 
+	 margin: 0 auto;
+	 padding-left: 250px;
+}
+.last_1 .a3 a{
+	font-size:12px ;
+	text-decoration: none;
+	text-align: center;
+	font-size:12px ;
+	text-decoration: none;
+	text-align: center;
+	color: #c1c1c1;
+}
+.last_1 .a1 a:hover{
+	color: #008080;
